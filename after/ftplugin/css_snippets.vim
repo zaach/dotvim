@@ -6,20 +6,26 @@ let st = g:snip_start_tag
 let et = g:snip_end_tag
 let cd = g:snip_elem_delim
 
-exec "Snippet visibility ".st.et.";".st.et
+exec "Snippet @i @import url('".st.et."');".st.et
+exec "Snippet ! !important".st.et
+exec "Snippet visi visibility: ".st.et.";".st.et
 exec "Snippet list list-style-image: url(".st.et.");".st.et
 exec "Snippet text text-shadow: rgb(".st.et.", ".st.et.", ".st.et.", ".st.et." ".st.et." ".st.et.";".st.et
 exec "Snippet overflow overflow: ".st.et.";".st.et
 exec "Snippet white white-space: ".st.et.";".st.et
-exec "Snippet clear cursor: url(".st.et.");".st.et
-exec "Snippet margin padding-top: ".st.et.";".st.et
-exec "Snippet background background #".st.et." url(".st.et.") ".st.et." ".st.et." top left/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x% y%/x-pos y-pos')".et.";".st.et
+exec "Snippet clear clear: both;".st.et
+exec "Snippet margin margin: ".st.et." "st.et.";".st.et
+exec "Snippet background background: #".st.et." url(".st.et.") ".st.et." ".st.et." ".st.et.";".st.et
+exec "Snippet bg background: #".st.et." url(".st.et.") ".st."repeat".et." ".st."scroll".et." ".st."top left".et.";".st.et
 exec "Snippet word word-spaceing: ".st.et.";".st.et
 exec "Snippet z z-index: ".st.et.";".st.et
 exec "Snippet vertical vertical-align: ".st.et.";".st.et
 exec "Snippet marker marker-offset: ".st.et.";".st.et
 exec "Snippet cursor cursor: ".st.et.";".st.et
-exec "Snippet border border-right: ".st.et."px ".st.et." #".st.et.";".st.et
+exec "Snippet borderr border-right: ".st.et."px ".st.et." #".st.et.";".st.et
+exec "Snippet borderl border-left: ".st.et."px ".st.et." #".st.et.";".st.et
+exec "Snippet bordert border-top: ".st.et."px ".st.et." #".st.et.";".st.et
+exec "Snippet borderb border-bottom: ".st.et."px ".st.et." #".st.et.";".st.et
 exec "Snippet display display: block;".st.et
 exec "Snippet padding padding: ".st.et." ".st.et.";".st.et
 exec "Snippet letter letter-spacing: ".st.et."em;".st.et
