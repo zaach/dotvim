@@ -1,1 +1,5 @@
 Nothing to see here. Just my vim setup.
+
+Depends on fuzzy_file_finder ruby gem:
+
+    sudo gem install —source=http://gems.github.com jamis-fuzzy_file_finder 
